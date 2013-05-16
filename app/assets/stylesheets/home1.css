@@ -1,0 +1,65 @@
+#index_container{
+    position:relative;
+    top:0;
+    right:0;
+    border-bottom: 1px dotted #77d;
+    }
+#Last_Updates {
+    position:relative;
+    top:0;
+    right:0;
+    width:400px;
+    border-right: 2px dotted #77d;
+
+}
+#login_index {
+    position:absolute;
+    top:0;
+    right:0;
+    width:400px;
+
+}
+#search_index {
+    position:absolute;
+    top:0;
+    right: 0;
+    width:400px;
+
+}
+h1 {
+    margin: 2;
+    padding-bottom: 0.5em;
+    font: 150% sans-serif;
+    color: #226;
+    border-bottom: 3px dotted #77d;
+}
+#entry {
+    overflow: auto;
+    margin-top: 1em;
+    border-bottom: 1px dotted #77d;
+    min-height: 100px;}
+img {
+    width: 80px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    position: absolute;
+}
+h3 {
+    font-size: 120%;
+    font-family: sans-serif;
+    margin-left: 100px;
+    margin-top: 0;
+    margin-bottom: 2px;
+    color: #227;
+}
+p,div.price_line {
+    margin-left: 100px;
+    margin-top: 0.5em;
+    margin-bottom: 0.8em;
+}
+.price {
+    color: #44a;
+    font-weight: bold;
+    margin-right: 3em;
+}
+

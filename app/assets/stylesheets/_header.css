@@ -1,0 +1,94 @@
+#header{
+    position:absolute;
+    height:100px;
+    background-color:#99ccff;
+    width: 800px;
+    top:0;
+}
+#login {
+    position:absolute;
+    top:0;
+    right:0;
+    width:200px;
+    height:100px;
+    background-color:#99ccff;
+    font-size:11px;
+
+}
+#menu {
+    position:relative;
+    top:0;
+    left:150;
+    width:450px;
+    height:100px;
+    background-color:#99ccff;
+}
+#register {
+    position:absolute;
+    top:50;
+    left:0;
+    width:150px;
+    height:50px;
+    background-color:#0066ff;
+
+}
+#search_header{
+    position:absolute;
+    top:50;
+    left:150;
+    width:150px;
+    height:50px;
+    background-color:#6633cc;
+}
+#publish {
+    position:absolute;
+    top:50;
+    left:300;
+    width:150px;
+    height:50px;
+    background-color:#9933ff;
+}
+#logo {
+    position:absolute;
+    top:0;
+    left:0;
+    width:150px;
+    height:100px;
+    background-color:#99ccff;
+}
+#Logo_img{
+    top:0px;
+    margin: auto;
+    margin-left: 25px;
+    width:100px;
+    height:100px;
+
+
+}
+
+li {
+    display: inline;
+    margin: 0;
+    border-right: none;
+    }
+.Header_button {
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background-color:transparent;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:8px;
+    border:none solid #dcdcdc;
+    display:inline-block;
+    color:#777777;
+    font-family:Arial Black;
+    font-size:28px;
+    font-weight:bold;
+    padding:12px 14px;
+    text-decoration:none;
+    text-shadow:1px 1px 0px #ffffff;
+}.Header_button:active {
+     position:relative;
+     top:1px;
+ }

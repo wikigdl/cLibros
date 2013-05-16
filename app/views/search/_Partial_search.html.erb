@@ -1,0 +1,21 @@
+<div id="search_page">
+  <%= form_tag controller.action_name, :method => :get do %>
+      <p>
+        <%= text_field_tag :search, params[:search] %>
+        <%= submit_tag "Search", :name => nil %>
+      </p>
+  <% end %>
+
+  <% @books.each do |book| %>
+      <div class="entry1" >
+        <%= image_tag book.photo.url %>
+        <h3> <%= book.Title %> </h3>
+        <%= sanitize(book.Condition) %>
+        <div class="price_line1" >
+          <span class="price1" > <%= book.Type_of_Trade %> </span>
+          <span class="price1" > <%=  number_to_currency(book.Price) %> </span>
+        </div>
+      </div>
+  <% end %>
+  <%= will_paginate @books %>
+</div>
